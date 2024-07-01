@@ -24,7 +24,7 @@ To view the website:
 
 ## Demo
 
-View the live demo [here](https://your-demo-url.com).
+View the live demo [here](https://joshuaakpan.github.io/HNG-Stage1-Task/).
 
 ## Contributing
 
