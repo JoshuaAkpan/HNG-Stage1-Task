@@ -36,7 +36,7 @@ span {
 
 hr {
   border: 1px solid rgb(241, 226, 12);
-  width: 200px;
+  width: 400px;
 }
 
 .content {
@@ -72,11 +72,7 @@ hr {
     gap: 40px;
     text-align: center;
   }
-
-  hr {
-    width: 400px;
-  }
-
+  
   .content > ul {
     padding-bottom: 50px;
     display: inline-block;
