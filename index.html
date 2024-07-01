@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akpan Joshua - HNG Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <section class="profile">
+        <img data-testid="slackProfilePicture"  src="/assets/0xJosh.jpg" alt="profile-image">
+         
+         <div class="profile-text">
+             <p>Slack Name: <span data-testid="slackDisplayName">0xJosh</span></p>
+             <p>Slack E-mail: <span data-testid="slackEmail">joshuaakpan7@gmail.com</span></p>
+         </div>
+
+      </section>
+
+      <section class="content">
+        <hr>
+        <h2>Tech Goals for the next 2 years</h2>
+        <ul>
+            <li>Master JavaScript and TypeScript</li>
+            <li>Deepen backend development skills with Node.js, Python (Django or Flask)</li>
+            <li>Contribute to Open Source projects</li>
+            <li>Implement CI/CD pipelines to automate testing, build, and deployment processes for efficient software delivery.</li>
+            <li>Understand and implement web security best practices, including HTTPS, input validation, and authentication/authorization</li>
+        </ul>
+        <br>
+        <a data-testid="hngLink" href="http://hng.tech/learn">HNG Link</a>
+        <a data-testid="keywordLink" href="http://keyword.dog">keyword.dog</a>
+        <a data-testid="scrapeanywebLink" href="http://scrapeanyweb.site">scrapeanyweb</a>
+        <br>  <br>
+        
+        <p data-testid="currentTimeUTC">Current Time (UTC): <span id="utcTime"></span></p>
+        <p data-testid="currentDay">Current Day of The Week: <span  id="currentDay"></span></p>
+      </section>
+    </div>
+  </body>
+</html>
