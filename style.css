@@ -39,8 +39,8 @@ hr {
   width: 200px;
 }
 
-.content{
-    text-align: center;
+.content {
+  text-align: center;
 }
 
 .content > h2 {
@@ -58,10 +58,10 @@ hr {
 }
 
 .content > a:hover {
-    background-color: rgb(241, 226, 12);
-    padding: 5px;
-    border-radius: 10px;
-    text-decoration: none;
+  background-color: rgb(241, 226, 12);
+  padding: 5px;
+  border-radius: 10px;
+  text-decoration: none;
 }
 
 /* Small Tablet and Medium Mobile responsiveness */
@@ -86,9 +86,7 @@ hr {
 }
 
 /* Medium Mobile and Small Mobile responsiveness */
-/* Media Query for Screen Sizes Between 320px and 410px */
-
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 360px) and (max-width: 480px) {
   .container {
     font-size: small;
     text-align: justify;
@@ -100,5 +98,15 @@ hr {
 
   .content > ul {
     width: 300px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+  .container {
+    font-size: small;
+    text-align: justify;
+  }
+  .content > ul {
+    width: 250px;
   }
 }

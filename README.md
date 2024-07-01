@@ -22,10 +22,6 @@ To view the website:
 1. Clone this repository.
 2. Open `index.html` in your web browser.
 
-## Screenshots
-
-![Screenshot](path/to/screenshot.png)
-
 ## Demo
 
 View the live demo [here](https://your-demo-url.com).
@@ -40,5 +36,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgements
 
-- Special thanks to [Name] for their guidance.
-- Icons made by [Author] from [www.flaticon.com].
+- Special thanks to HNG for the task.
