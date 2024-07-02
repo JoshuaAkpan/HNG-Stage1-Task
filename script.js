@@ -9,10 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     img.width = naturalWidth;
     img.height = naturalHeight;
-
-    console.log(
-      `Natural Width: ${naturalWidth}, Natural Height: ${naturalHeight}`
-    );
   });
 
   // Check if the image has already loaded
